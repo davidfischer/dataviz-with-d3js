@@ -13,6 +13,22 @@ The data visualizations for this presentation are hosted on
 [github pages](http://davidfischer.github.io/dataviz-with-d3js/).
 
 
+## Developing
+
+To run the data visualizations locally, simply run:
+
+    % cd www && python -m SimpleHTTPServer 8000
+
+This starts a webserver on http://localhost:8000 with the visualizations.
+
+
+## Deploying
+
+To deploy the latest visualizations to github pages, run:
+
+    % make github
+
+
 ## License
 
 Parts of this repository represent the works of others and are used under
