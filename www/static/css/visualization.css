@@ -1,0 +1,29 @@
+/* SD Python Meetup visualization */
+#sdpython-meetup .axis path,
+#sdpython-meetup .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+#sdpython-meetup .x.axis path {
+  display: none;
+}
+
+#sdpython-meetup .line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+#sdpython-meetup .dot {
+  fill: steelblue;
+}
+#sdpython-meetup .dot:hover, #sdpython-meetup .poi {
+  fill: orange;
+}
+#sdpython-meetup-tooltip {
+  background-color: rgba(242, 242, 242, 0.6);
+  border: 1px solid #666;
+  padding: 5px;
+}
