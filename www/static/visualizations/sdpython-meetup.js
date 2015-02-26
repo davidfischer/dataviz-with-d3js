@@ -36,7 +36,7 @@
       .style("display", "none")
       .style("position", "absolute");
 
-  d3.csv("../datasets/sdpython-meetup.csv", function(error, data) {
+  d3.csv("datasets/sdpython-meetup.csv", function(error, data) {
     data.forEach(function(d) {
       d.date = parseDate(d.date);
       d.members = parseInt(d.members);
