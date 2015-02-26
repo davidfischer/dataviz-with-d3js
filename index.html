@@ -1,1 +1,50 @@
-TODO
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interactive Data Visualization with D3.js</title>
+
+    <!-- Bootstrap -->
+    <link href="static/vendor/bootstrap-3.3.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="static/vendor/bootstrap-3.3.2/js/bootstrap.min.js"></script>
+
+    <!-- Include D3, data driven documents -->
+    <script src="static/vendor/d3-3.5.5/d3.min.js"></script>
+
+    <link href="static/css/visualization.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Interactive Data Visualization with D3.js</h1>
+          <p class="lead">D3 or Data Driven Documents is a JavaScript library for manipulating document object model (DOM) elements based on the underlying data. In this sense, D3 is more than just a charting or visualization library. It gives you all the power of the DOM and the web standards around it such as HTML, SVG and CSS.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12">
+          <h3>San Diego Python Meetup Growth</h3>
+          <p>This graph shows the growth of San Diego Python since the group was rebooted in February 2012. Growth has been very steady and regular.</p>
+          <div id="sdpython-meetup"></div>
+          <script type="text/javascript" src="static/visualizations/sdpython-meetup.js"></script>
+          <div class="well well-sm">The annotated source code for this visualization can be found here.</div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
