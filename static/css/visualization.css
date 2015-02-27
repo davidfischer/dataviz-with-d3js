@@ -17,13 +17,19 @@
 }
 
 #sdpython-meetup .dot {
+  opacity: 0.5;
   fill: steelblue;
 }
-#sdpython-meetup .dot:hover, #sdpython-meetup .poi {
+#sdpython-meetup .dot.poi {
+  opacity: 1;
+  fill: steelblue;
+}
+#sdpython-meetup .dot.poi:hover {
+  opacity: 1;
   fill: orange;
 }
 #sdpython-meetup-tooltip {
-  background-color: rgba(242, 242, 242, 0.6);
+  background-color: rgba(242, 242, 242, 0.8);
   border: 1px solid #666;
-  padding: 5px;
+  padding: 15px;
 }
